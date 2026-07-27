@@ -1,8 +1,23 @@
 aid: framed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/framed.png
 name: Framed *
-description: 'Framed * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Framed (framed.io), formerly Framed Data, was a GV-backed predictive-analytics / customer
+  churn-prediction machine-learning startup. As of 2026 the framed.io domain no longer hosts a product
+  or developer surface: it serves a static Squarespace landing page titled "Framed + Square" that
+  points visitors to Square Capital (squareup.com/capital), indicating the team/product moved to Square.
+  No API, developer portal, documentation, SDKs, or any machine-readable artifact surface survives, so
+  there is nothing to enrich against; this record is retained as a dormant/acquired lead.'
 url: https://raw.githubusercontent.com/api-evangelist/framed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,20 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
+x-status-reason: 'framed.io serves a parked Squarespace "Framed + Square" landing page pointing to Square
+  Capital; no live product or developer/API surface (probed 2026-07-19: api./developer./app./blog.framed.io
+  unresolved, docs.framed.io + all /.well-known/ + /openapi.json + /llms.txt return 404). Acquired/defunct.'
+x-enrichment-checked: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Analytics
+- Machine Learning
+- Churn Prediction
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://framed.io
+  url: https://framed.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
