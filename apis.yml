@@ -30,7 +30,7 @@ x-status-reason: 'framed.io serves a parked Squarespace "Framed + Square" landin
   Capital; no live product or developer/API surface (probed 2026-07-19: api./developer./app./blog.framed.io
   unresolved, docs.framed.io + all /.well-known/ + /openapi.json + /llms.txt return 404). Acquired/defunct.'
 x-enrichment-checked: '2026-07-19'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
