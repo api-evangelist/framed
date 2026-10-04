@@ -48,7 +48,7 @@ tags:
 - Company
 - Enterprise
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Churn Prediction
 tags_raw:
 - Company
@@ -56,6 +56,7 @@ tags_raw:
 - Analytics
 - Machine Learning
 - Churn Prediction
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
